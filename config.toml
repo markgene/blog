@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Mainroad"
+title = "Mark Chen's Blog"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "Mainroad"
@@ -7,13 +7,13 @@ disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author]
-  name = "John Doe"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  name = "Mark CHen"
+  bio = "Mark Chen is a bioinformatics scientist."
   avatar = "img/avatar.png"
 
 [Params]
   subtitle = "Just another site" # Subtitle of your site
-  description = "John Doe's Personal blog about everything" # Description of your site
+  description = "Mark Chen's blog about everything" # Description of your site
   opengraph = true
   twitter_cards = false
   readmore = false # Show "Read more" button in list if true
