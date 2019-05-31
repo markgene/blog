@@ -13,7 +13,17 @@ description: ''
 thumbnail: ''
 ---
 
-I install Entrez Direct with `homebrew`. It is not in the core but in `brewsci/bio`:
+I install Entrez Direct following the [instruction at the official website](https://www.ncbi.nlm.nih.gov/books/NBK179288/) and [The Insider's Guide to Accessing NLM Data](https://dataguide.nlm.nih.gov/edirect/install.html), instead of `homebrew`, because I do not have a simple solution for the error message like
+
+```sh
+Parser.c: loadable library and perl binaries are mismatched (got handshake key 0xdb00080, needed 0xdb80080)
+```
+
+FYI, I tried the solutions in [a discussion in StackOverflow](https://stackoverflow.com/questions/45000585/listutil-c-loadable-library-and-perl-binaries-are-mismatched-got-handshake-key), but it did not work for me.
+
+---
+
+Install Entrez Direct with `homebrew`. It is not in the core but in `brewsci/bio`:
 
 ```sh
 brew tap brewsci/bio
