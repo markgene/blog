@@ -24,7 +24,7 @@ thumbnail: ''
 
 * For a topic in data science, such as linear regression or regression diagnostics, divide it into three or more sections: theory, R implementation, Python implementation, or implementation in other languages or ecosystem such as Spark.
 
-* For packages or libraries, archive personal notes by language and package, one folder one package. For example, `lm` package in R will be a directory of `R/lm`; `numpy` of Python will be `Python/numpy`. The notes should be in the most popular and/or convenient format. For example, R will be Rmarkdown; Python will be Jupyter book or `rst` format. Markdown format could be a choice of general purpose.
+* For packages or libraries, archive personal notes by language and package, one folder one package. For example, `lm` package in R will be a directory of `R/lm`; `numpy` of Python will be `Python/numpy`. The notes should be in the most popular and/or convenient format. For example, R will be Rmarkdown; Python will be Jupyter book or `rst` format. Markdown format could be a choice of general purpose. Meanwhile, archive simple notes and comments in Blogdown objects.
 
 
 
